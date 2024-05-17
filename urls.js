@@ -1,0 +1,20 @@
+// urls.js
+var urls = [
+  "*://*.nytimes.com/*/*/*/*",
+  "*://*.theguardian.com/*/*/*/*",
+  "*://*.bloomberg.com/news/*/*",
+  "*://*.independent.ie/*/*",
+  "*://*.washingtonpost.com/*/*/*/*/*",
+  "*://*.economist.com/*/*/*/*/*",
+  "*://*.telegraph.co.uk/*/*/*",
+  "*://*.latimes.com/*/*/*",
+  "*://*.theatlantic.com/*/*/*",
+  "*://*.thetimes.co.uk/*/*",
+  "*://*.corriere.it/*/*/*",
+  "*://*.dn.se/*/*/*",
+  "*://*.lanacion.com.ar/*/*/*",
+  "*://*.wyborcza.pl/*/*/*",
+  "*://*.independent.co.uk/*/*/*",
+  "*://*.asia.nikkei.com/*/*/*/*",
+  "*://*.caixinglobal.com/****-**-**/*",
+];

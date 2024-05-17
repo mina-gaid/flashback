@@ -1,0 +1,18 @@
+{
+  "name": "Flashback",
+  "description": "Auto redirect news articles to archive.fo. Bypass ads, country blocks & age restrictions. Keep your data private from news sites. Inspired by the Library of Alexandria",
+  "author": "Mina Gaid",
+  "icons": {
+    "180": "icon.png"
+  },
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["urls.js", "background.js"]
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'"
+}
